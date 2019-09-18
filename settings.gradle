@@ -1,0 +1,2 @@
+include ':app', ':PracticeJavaIntemediateLibrary'
+rootProject.name='IntermediateJavaPractice'

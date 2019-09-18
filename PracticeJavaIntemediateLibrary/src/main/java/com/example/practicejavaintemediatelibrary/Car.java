@@ -3,15 +3,12 @@ package com.example.practicejavaintemediatelibrary;
 public class Car {
     public String color = "Black";
     private String interior;
-    public static int price;
     Car(){
         interior = "Plastic";
-        price = 120;
     }
-    Car(String selectedColor, String choosenInerior, int carPrice){
+    Car(String selectedColor, String choosenInerior){
         color = selectedColor;
         interior = choosenInerior;
-        price = carPrice;
     }
 
     public String getInterior() {
@@ -20,5 +17,8 @@ public class Car {
 
     public void setInterior(String interior) {
         this.interior = interior;
+    }
+    public void drive(){
+        System.out.println("Car is moving");
     }
 }
